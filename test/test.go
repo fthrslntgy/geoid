@@ -15,11 +15,11 @@ import (
 var config *oauth2.Config
 var user_info_endpoint string
 
-var provider_files = []string{"google_test_provider", "yahoo_test_provider"}
+var provider_files = []string{"google_test_provider", "yahoo_test_provider", "microsoft_test_provider"}
 
 func main() {
 	var err error
-	config, user_info_endpoint, err = geoid.OAuthConfig(provider_files[0], false)
+	config, user_info_endpoint, err = geoid.OAuthConfig(provider_files[2], false)
 	if err != nil {
 		panic(err)
 	}
