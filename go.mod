@@ -3,7 +3,7 @@ module github.com/fthrslntgy/geoid
 go 1.21.3
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.1
+	github.com/gofiber/fiber/v2 v2.52.5
 	golang.org/x/oauth2 v0.17.0
 )
 
